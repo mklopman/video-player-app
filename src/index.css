@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: beige;
+}
+
+.app-header {
+	font-family: 'Rammetto One', cursive;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 10px;
+	margin-bottom: -10px;
+	color: black;
+	text-shadow: 1px 1px 2px white, 0 0 25px gold, 0 0 5px midnightblue;
+
+}
+
+.search-bar {
+	margin: 20px;
+	text-align: center;
+}
+
+.search-bar input {
+	width: 25%;
+	height: 40px;
+	font-size: 20px;
+}
+
+.video-item img {
+	max-width: 64px;
+}
+
+.video-detail .details {
+	margin-top: 10px;
+	padding: 10px;
+	border: .5px solid grey;
+	border-radius: 4px;
+	background-color: lavender;
+}
+
+.details-title {
+	font-size: 25px;
+	font-family: 'Rammetto One', cursive;
+}
+
+.details-description {
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.list-group-item {
+	cursor: pointer;
+	background-color: lavender;
+	width: 104.5%;
+}
+
+.list-group-item:hover {
+	background-color: silver;
+}
+
+.list-group {
+	border: .5px solid grey;
+	width: 23%;
+}
+
+
+
+
